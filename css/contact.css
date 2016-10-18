@@ -1,0 +1,74 @@
+.main.contact{
+    flex-flow: column nowrap;
+}
+
+section.contact{
+    min-width: 45vw;
+    width: 45vw;
+    margin: 0 auto;
+    flex: 1;
+}
+
+form{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+input{
+    flex: 1 100%;
+    outline: none;
+    border: 0;
+    border-bottom: .2857vh solid white;
+    border-bottom: .2857vh solid #1F363D;
+    height: 5vh;
+    background: none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 0;
+}
+
+button{
+    height: 8.5714vh;
+    padding: 2.8571vh 4.3945vw;
+    border-radius: 4.2857vh;
+    box-shadow: 0 0 4.2857vh #29516D;
+    box-shadow: 0 0 4.2857vh #7D98A1;
+    background-color: #000060;
+    background-color: #689689;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 2px auto;
+    flex: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b1d3e0;
+    color: #331E36;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #b1d3e0;
+    color: #331E36;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #b1d3e0;
+    color: #331E36;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #b1d3e0;
+    color: #331E36;
+}
+
+button:hover{
+    box-shadow: 0 0 4.2857vh #062e4a;
+    color: #2ce8fd;
+}
+
+.half-flex{
+    flex: 0 50%;
+    max-width: 45%;
+}

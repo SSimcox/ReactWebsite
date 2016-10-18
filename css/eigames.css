@@ -1,0 +1,145 @@
+body {
+    background-color: #761c19;
+    /*background-color: #708EA4;*/
+    /*background-color: #FFFFFF;*/
+}
+div{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+}
+section{
+    flex: 1 50%;
+    /*border-left: 2px solid #2ce8fd;*/
+}
+
+@media all and (max-width: 750px){
+    .main{
+        flex-direction: column;
+    }
+}
+
+header{
+    height: 50px;
+    max-width: 1100px;
+    margin: 30px auto 115px auto;
+}
+
+footer{
+    margin-top: 100px;
+    height: 105px;
+    background-color: #500705;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav{
+    float: right;
+    font-family:'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    color: #2ce8fd;
+    margin-left: 35px;
+    margin-top: 12px;
+}
+
+footer div{
+    height: 34px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+footer nav{
+    float: left;
+    margin-top: 10px;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+    padding-right: 10px;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: inherit;
+}
+
+nav ul li a, .gameName a{
+    margin: 0px 2px;
+    padding-right: 10px;
+    color: #2ce8fd;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+nav ul li a:active{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.logo{
+    height: 50px;
+}
+
+.sectionHead {
+    background-color: #500705;
+    color: #2ce8fd;
+    border-left: 1px solid #2ce8fd;
+    margin: 20px 0 0 0;
+    font-size: 4rem;
+}
+
+.gameList {
+    background-color: #29516D;
+    margin: 0;
+    border-left: 1px solid #2ce8fd;
+}
+
+.gameName {
+    display: inline-block;
+    text-decoration: none;
+}
+
+@-webkit-keyframes wkgraphicsIn {
+    from{height: 0px;}
+    to{height: 700px;}
+}
+
+@keyframes graphicsIn {
+    from{height: 0px;}
+    to{height: 700px;}
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.graphicsFrame {
+    display: none;
+    height: 700px;
+    width: 600px;
+    -webkit-animation-name: wkgraphicsIn;
+    -webkit-animation-duration: 2s;
+    animation-name: graphicsIn;
+    animation-duration: 2s;
+}
+
+#dc-iframe {
+    display: none;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+}

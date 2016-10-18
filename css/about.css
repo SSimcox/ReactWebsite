@@ -1,0 +1,63 @@
+.main.about{
+    flex-flow: column nowrap;
+    justify-content: center;
+    max-width: 95vw;
+}
+
+h1.about{
+    border: 0;
+}
+
+section.about{
+    border-left: 1px solid #2ce8fd;
+    border-bottom: 1px solid #2ce8fd;
+    flex: 1 0 auto;
+    /*min-height: 33%;*/
+}
+
+.abt-pic{
+    border-radius: 50%;
+    height: 15vh;
+    min-height: 50px;
+    position: absolute;
+    bottom: 15vh;
+    left: 5vw;
+}
+
+#webgl-logo{
+    border-radius: 0;
+    left: auto;
+    right: 5vw;
+}
+
+@-webkit-keyframes wksummaryIn {
+    from{height: 0;}
+    to{height: 10vh;}
+}
+
+@keyframes summaryIn {
+    from{height: 0;}
+    to{height: 10vh;}
+}
+
+p.about.summary{
+    display:none;
+    font-size: 18px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: auto;
+    text-align: center;
+    padding: 5vh 15vw;
+    position: relative;
+
+    /*-webkit-animation-name: wksummaryIn;*/
+    /*-webkit-animation-duration: 1s;*/
+    /*animation-name: summaryIn;*/
+    /*animation-duration: 1s;*/
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.3) and (orientation: portrait){
+    #webgl-logo{
+        display: none;
+    }
+}

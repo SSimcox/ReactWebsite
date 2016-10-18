@@ -1,0 +1,34 @@
+
+.bg-main{
+    background-color: #002240;
+    background-color: #DAF7DC;
+    background-color: white;
+}
+
+.bg-sec{
+    background-color: #000036;
+    background-color: #689689;
+}
+
+.bg-tert{
+    background-color: #29516D;
+    background-color: #7D98A1;
+}
+
+.col-main{
+    color: white;
+    color: black;
+}
+
+.col-sec{
+    color: #2ce8fd;
+    color: #1F363D;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.col-black{
+    color: black;
+}
