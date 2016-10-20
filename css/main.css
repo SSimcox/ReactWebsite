@@ -7,8 +7,15 @@ a{
     font-size: inherit;
 }
 body {
+    margin: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+}
+
+.target{
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .body{

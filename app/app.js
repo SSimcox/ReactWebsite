@@ -85,7 +85,7 @@ var IndexContent = React.createClass({
 var HomePage = React.createClass({
     render: function(){
         return (
-            <div>
+            <div id="body" className="body bg-main col-main">
                 <Header />
                 <IndexContent />
                 <Footer />
@@ -94,4 +94,4 @@ var HomePage = React.createClass({
     }
 });
 
-ReactDOM.render(<HomePage />, $('#body')[0] );
+ReactDOM.render(<HomePage />, $('#target')[0] );
